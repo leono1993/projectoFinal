@@ -1,3 +1,8 @@
 module.exports = {
-  reactStrictMode: true
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' },
+      // Add other pages as needed
+    }
+  },
 };
