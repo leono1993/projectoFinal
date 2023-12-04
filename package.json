@@ -13,7 +13,7 @@
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix",
-    "deploy": "npm run export && gh-pages -d out"
+    "deploy": "npm run export && gh-pages -d out -b proyectoFinal"
   },
   "dependencies": {
     "@emotion/cache": "11.10.5",
