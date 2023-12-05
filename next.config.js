@@ -2,7 +2,11 @@ module.exports = {
   exportPathMap: function () {
     return {
       '/': { page: '/' },
-      // Add other pages as needed
+      '/semanas': { page: '/semanas' },
+      '/curiosidades': { page: '/curiosidades' },
+      '/account': { page: '/account' },
+      '/videos': { page: '/videos' },
+      '/Herramientas': { page: '/videos' }
     }
   },
 };
